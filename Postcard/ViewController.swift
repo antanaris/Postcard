@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // added outlets for visual element in order to be able to change them though code
     @IBOutlet weak var messageLabel: UILabel!
     @IBOutlet weak var enterNameTextField: UITextField!
     @IBOutlet weak var enterMessageTextField: UITextField!
